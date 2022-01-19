@@ -24,7 +24,7 @@
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Oswald:400,500,600,700');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Oswald:400,500,600,700'); */
 
 /*********************************
 2. Body and some general stuff
@@ -107,7 +107,7 @@ p a:hover::after
 {
 	opacity: 0.2;
 }
-::selection
+p::selection
 {
 	
 }
@@ -449,7 +449,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
 	font-weight: 500;
-	color: #181818;
+	color: rgba(0, 0, 0, 0.88);
 	line-height: 0.75;
 }
 .menu_close_container
@@ -510,7 +510,7 @@ section
 {
 	font-size: 48px;
 	font-weight: 500;
-	color: #181818;
+	color: rgba(0, 0, 0, 0.88);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -551,7 +551,7 @@ section
 }
 .menu_social ul li a i:hover
 {
-	color: #181818;
+	color: rgba(0, 0, 0, 0.88);
 }
 
 /*********************************
@@ -760,7 +760,7 @@ section
 {
 	width: 161px;
 	height: 52px;
-	background: #181818;
+	background: rgba(0, 0, 0, 0.88);
 	color: #FFFFFF;
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
@@ -817,8 +817,8 @@ section
 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
-	color: #181818;
-	font-weight: 400;
+	color: #A9643D;
+	font-weight: 700;
 }
 
 /*********************************
@@ -847,13 +847,14 @@ img{
 }
 .section_title
 {
-	color: #181818;
+	color: #A9643D;
 	margin-top: 26px;
 }
 .destinations_row
 {
 	margin-top: 99px;
 }
+
 .destination_image
 {
 	width: 100%;
@@ -871,7 +872,7 @@ img{
 	left: 16px;
 	width: 118px;
 	height: 36px;
-	background: #181818;
+	background: rgba(0, 0, 0, 0.88);
 }
 .spec_offer a
 {
@@ -901,13 +902,15 @@ img{
 .destination_title
 {
 	margin-top: 15px;
+	
+
 }
 .destination_title a
 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
 	font-weight: 400;
-	color: #181818;
+	color: #A9643D;;
 }
 .destination_subtitle
 {
@@ -917,7 +920,7 @@ img{
 {
 	font-size: 16px;
 	font-weight: 700;
-	color: #181818;
+	color: #A9643D;;
 	margin-top: 16px;
 }
 
@@ -934,7 +937,7 @@ img{
 .testimonials .section_title,
 .testimonials .section_subtitle
 {
-	color: #FFFFFF;
+	color: #A9643D;;
 }
 .testimonials_slider_container
 {
@@ -1063,7 +1066,7 @@ img{
 	font-family: 'Oswald', sans-serif;
 	font-size: 48px;
 	font-weight: 400;
-	color: #181818;
+	color: rgba(0, 0, 0, 0.88);
 	line-height: 0.75;
 }
 .news_post_date div:last-child
@@ -1091,7 +1094,7 @@ img{
 	font-family: 'Oswald', sans-serif;
 	font-size: 28px;
 	font-weight: 400;
-	color: #181818;
+	color: rgba(0, 0, 0, 0.88);
 }
 .news_post_category
 {
@@ -1143,14 +1146,15 @@ img{
 .trav_content_inner > div:first-child
 {
 	left: 0;
-	background: rgba(45,143,197,0.7);
+	background: rgba(144, 61, 13, 1);
+	;
 	transform-origin: top left;
 	transform: rotate(12deg);
 }
 .trav_content_inner > div:last-child
 {
 	right: 0;
-	background: rgba(237,35,69,0.7);
+	background: rgba(128, 0, 128, 0.87);
 	transform-origin: top right;
 	transform: rotate(-12deg);
 }
