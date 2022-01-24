@@ -907,10 +907,12 @@ section
 .destination_image
 {
 	width: 100%;
+	
 }
 .destination_image img
 {
 	max-width: 100%;
+	border-radius: 10%;
 }
 .spec_offer
 {

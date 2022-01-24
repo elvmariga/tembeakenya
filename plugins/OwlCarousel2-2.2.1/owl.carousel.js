@@ -1,21 +1,5 @@
-/**
- * Owl Carousel v2.2.1
- * Copyright 2013-2017 David Deutsch
- * Licensed under  ()
- */
-/**
- * Owl carousel
- * @version 2.1.6
- * @author Bartosz Wojciechowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- * @todo Lazy Load Icon
- * @todo prevent animationend bubling
- * @todo itemsScaleUp
- * @todo Test Zepto
- * @todo stagePadding calculate wrong active classes
- */
-;(function($, window, document, undefined) {
+
+(function($, window, document, undefined) {
 
 	/**
 	 * Creates a carousel.
@@ -185,13 +169,13 @@
 	 */
 	Owl.Defaults = {
 		items: 3,
-		loop: false,
-		center: false,
-		rewind: false,
+		loop: true,
+		center: true,
+		rewind: true,
 
-		mouseDrag: true,
-		touchDrag: true,
-		pullDrag: true,
+		mouseDrag: false,
+		touchDrag: false,
+		pullDrag: false,
 		freeDrag: false,
 
 		margin: 0,
@@ -2587,11 +2571,15 @@
 	 * Default options.
 	 * @public
 	 */
+
+
+
+	
 	Autoplay.Defaults = {
-		autoplay: false,
+		autoplay: true,
 		autoplayTimeout: 5000,
 		autoplayHoverPause: false,
-		autoplaySpeed: false
+		autoplaySpeed: true
 	};
 
 	/**
@@ -3190,15 +3178,7 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Support Plugin
- *
- * @version 2.1.0
- * @author Vivid Planet Software GmbH
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
+
 ;(function($, window, document, undefined) {
 
 	var style = $('<support>').get(0).style,
