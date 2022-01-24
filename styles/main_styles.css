@@ -24,7 +24,7 @@
 1. Fonts
 ***********/
 
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Oswald:400,500,600,700'); */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Oswald:400,500,600,700');
 
 /*********************************
 2. Body and some general stuff
@@ -62,10 +62,10 @@ ul
 p
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.9285;
 	font-weight: 400;
-	color: #72728c;
+	color: #181818;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -714,7 +714,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 500 !important;
-	color: #72728c !important;
+	color: #181818 !important;
 }
 .search_input_1
 {
@@ -737,35 +737,35 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
-	color: #72728c !important;
+	color: #181818 !important;
 }
 .search_input:-moz-placeholder
 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
-	color: #72728c !important;
+	color: #181818 !important;
 }
 .search_input::-moz-placeholder
 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
-	color: #72728c !important;
+	color: #181818 !important;
 } 
 .search_input:-ms-input-placeholder
 { 
 	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
-	color: #72728c !important;
+	color: #181818 !important;
 }
 .search_input::input-placeholder
 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
-	color: #72728c !important;
+	color: #181818 !important;
 }
 .home_search_button
 {
@@ -828,7 +828,7 @@ section
 .intro_title
 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 18px;
+	font-size: 24px;
 	color: #800080;
 	font-weight: 700;
 }
@@ -841,7 +841,7 @@ section
 {
 	width: 100%;
 	background: #EFE8EF;
-	padding-top: 100px;
+	padding-top: 20px;
 	padding-bottom: 116px;
 }
 img{
@@ -876,6 +876,7 @@ img{
 	max-width: 100%;
 	border-radius: 10%;
 	box-shadow: #313f4e;
+	border: 5px solid #800080;
 }
 .spec_offer
 {
@@ -932,8 +933,8 @@ img{
 {
 	font-size: 16px;
 	font-weight: 700;
-	color:  #EAC70C;
-	;;
+	color:  #181818;
+
 	margin-top: 16px;
 }
 
