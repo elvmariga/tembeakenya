@@ -43,8 +43,8 @@ body
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	background: #FFFFFF;
-	color: #a5a5a5;
+	background: #DB71DB;
+	color: #181818;
 }
 div
 {
@@ -268,7 +268,7 @@ section
 {
 	width: 161px;
 	height: 52px;
-	background: rgba(24,24,24,1);
+	background: #FFD700;
 	text-align: center;
 	border-radius: 20px;
 	cursor: pointer;
@@ -290,7 +290,7 @@ section
 }
 .button:hover
 {
-	background: rgba(24,24,24,0.7);
+	background: #800080;
 }
 
 /*********************************
@@ -309,11 +309,13 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	background-color: #800080;
+	opacity: 0.8;
 }
 .header_content
 {
 	width: 100%;
-	height: 148px;
+	height: 100px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -322,11 +324,12 @@ section
 }
 .header.scrolled
 {
-	background: rgba(24,24,24,0.6);
+	background: #763076;
+	opacity: 1;
 }
 .header.scrolled .header_content
 {
-	height: 90px;
+	height: 70px;
 }
 .header_content_inner
 {
@@ -387,7 +390,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	color: #FFFFFF;
+	color: gold;
 	white-space: nowrap;
 }
 .header_phone
@@ -396,7 +399,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 500;
-	color: #FFFFFF;
+	color: GOLD;
 }
 .header_social
 {
@@ -425,7 +428,7 @@ section
 .header_social ul li a i
 {
 	font-size: 14px;
-	color: rgba(255,255,255,1);
+	color: gold;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -434,7 +437,7 @@ section
 }
 .header_social ul li a i:hover
 {
-	color: rgba(255,255,255,0.5);
+	color: #a428a4;
 }
 .hamburger
 {
@@ -624,7 +627,7 @@ section
 	font-size: 100px;
 	line-height: 1.1;
 	font-weight: 400;
-	color: #FFFFFF;
+	color: #800080;
 }
 
 /*********************************
@@ -762,7 +765,7 @@ section
 .about
 {
 	width: 100%;
-	background: #FFFFFF;
+	background: #EFE8EF;
 	padding-top: 115px;
 }
 .about_row
@@ -780,6 +783,9 @@ section
 	font-weight: 700;
 	color: #181818;
 	line-height: 1.66;
+}
+.section_subtitle, .section_title{
+	color: #800080;
 }
 .about_text
 {
@@ -805,7 +811,7 @@ section
 .milestones
 {
 	width: 100%;
-	background: #FFFFFF;
+	background: #EFE8EF;
 	padding-top: 115px;
 	padding-bottom: 115px;
 }
@@ -855,7 +861,7 @@ section
 .why .section_subtitle,
 .why .section_title
 {
-	color: #FFFFFF;
+	color: #000000;
 }
 .why_row
 {
@@ -920,7 +926,7 @@ section
 .team
 {
 	width: 100%;
-	background: #FFFFFF;
+	background: #EFE8EF;
 	padding-top: 115px;
 	padding-bottom: 67px;
 }
@@ -982,7 +988,8 @@ section
 {
 	display: block;
 	position: relative;
-	padding-top: 136px;
+	padding-top: 100px;
+	background-color: #763076;
 }
 .newsletter_title
 {
@@ -1130,7 +1137,7 @@ section
 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
-	color: #FFFFFF;
+	color: gold;
 	font-weight: 400;
 	text-transform: uppercase;
 	margin-top: 18px;
