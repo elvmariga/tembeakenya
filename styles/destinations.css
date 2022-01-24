@@ -40,8 +40,8 @@ body
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	background: #FFFFFF;
-	color: #a5a5a5;
+	background: #DB71DB;
+	color: #181818;
 }
 div
 {
@@ -282,12 +282,12 @@ section
 	font-size: 16px;
 	font-weight: 400;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: white	;
 	line-height: 52px;
 }
 .button:hover
 {
-	background: rgba(24,24,24,0.7);
+	background: #800080;
 }
 
 /*********************************
@@ -306,36 +306,44 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	background-color: #800080;
+	opacity: 0.8;
+	
 }
+
 .header_content
 {
 	width: 100%;
-	height: 148px;
+	height: 108px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	justify-content: space-between;
 }
 .header.scrolled
 {
-	background: rgba(24,24,24,0.6);
+	background: #763076;
+	opacity: 1;
 }
 .header.scrolled .header_content
 {
-	height: 90px;
+	height: 70px;
 }
 .header_content_inner
 {
 	width: 100%;
+ 	align-items: space-between;
 }
-.logo a
+.logo 
 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
 	font-weight: 500;
 	color: #FFFFFF;
 	line-height: 0.75;
+	justify-content: start;
 }
 .main_nav
 {
@@ -384,7 +392,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	color: #FFFFFF;
+	color: gold;
 	white-space: nowrap;
 }
 .header_phone
@@ -393,7 +401,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 500;
-	color: #FFFFFF;
+	color: gold;
 }
 .header_social
 {
@@ -410,6 +418,7 @@ section
 .header_social.scrolled
 {
 	height: 90px;
+	
 }
 .header_social ul
 {
@@ -422,7 +431,8 @@ section
 .header_social ul li a i
 {
 	font-size: 14px;
-	color: rgba(255,255,255,1);
+	color: gold;
+	padding-bottom: 20px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -431,7 +441,7 @@ section
 }
 .header_social ul li a i:hover
 {
-	color: rgba(255,255,255,0.5);
+	color: #a428a4;
 }
 .hamburger
 {
@@ -759,7 +769,7 @@ section
 .destinations
 {
 	width: 100%;
-	background: #FFFFFF;
+	background: #EFE8EF;
 	padding-top: 115px;
 	padding-bottom: 116px;
 }
@@ -768,14 +778,14 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
-	color: #72728c;
+	color: #800080;
 	line-height: 0.75;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 }
 .section_title
 {
-	color: #181818;
+	color: #800080;
 	margin-top: 26px;
 }
 .destination_sorting_row
@@ -792,7 +802,7 @@ section
 	position: relative;
 	width: 123px;
 	height: 33px;
-	background: #f2f5f6;
+	background: #EAC70C;
 	line-height: 33px;
 	cursor: pointer;
 	padding-left: 20px;
@@ -801,8 +811,9 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
-	color: #7c7c94;
+	color: #000000;
 	margin-bottom: 10px;
+	border-radius: 5%;
 }
 .item_sorting > li:last-child
 {
@@ -951,23 +962,26 @@ section
 .destination_title
 {
 	margin-top: 15px;
+	
 }
 .destination_title a
 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
 	font-weight: 400;
-	color: #181818;
+	color: #800080;
 }
 .destination_subtitle
 {
 	margin-top: -4px;
+	color: #181818;
+	
 }
 .destination_price
 {
 	font-size: 16px;
 	font-weight: 700;
-	color: #181818;
+	color: #EAC70C;
 	margin-top: 16px;
 }
 .destination_list
@@ -1008,6 +1022,8 @@ section
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 51px;
+	background-color: #EAC70C;
+	;
 }
 
 /*********************************
@@ -1018,7 +1034,8 @@ section
 {
 	display: block;
 	position: relative;
-	padding-top: 136px;
+	padding-top: 100px;
+	background-color: #763076;
 }
 .newsletter_title
 {
@@ -1166,7 +1183,7 @@ section
 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
-	color: #FFFFFF;
+	color: gold;
 	font-weight: 400;
 	text-transform: uppercase;
 	margin-top: 18px;

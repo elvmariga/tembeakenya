@@ -817,7 +817,7 @@ section
 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
-	color: #A9643D;
+	color: #763076;
 	font-weight: 700;
 }
 
@@ -847,7 +847,7 @@ img{
 }
 .section_title
 {
-	color: #A9643D;
+	color: #763076;
 	margin-top: 26px;
 }
 .destinations_row
@@ -910,7 +910,7 @@ img{
 	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
 	font-weight: 400;
-	color: #A9643D;;
+	color: #763076;;
 }
 .destination_subtitle
 {
@@ -920,7 +920,7 @@ img{
 {
 	font-size: 16px;
 	font-weight: 700;
-	color: #A9643D;;
+	color: #763076;;
 	margin-top: 16px;
 }
 
@@ -937,7 +937,7 @@ img{
 .testimonials .section_title,
 .testimonials .section_subtitle
 {
-	color: #A9643D;;
+	color: #763076;;
 }
 .testimonials_slider_container
 {
