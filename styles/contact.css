@@ -458,15 +458,14 @@ section
 /*********************************
 4. Menu
 *********************************/
-
 .menu
 {
 	position: fixed;
 	top: 0;
 	left: -100vw;
-	width: 100vw;
+	width: 80vw;
 	height: 100vh;
-	background: rgba(242,245,246,0.95);
+	background: #763076;
 	-webkit-transition: all 1000ms cubic-bezier(.18,.43,.59,.92);
 	-moz-transition: all 1000ms cubic-bezier(.18,.43,.59,.92);
 	-ms-transition: all 1000ms cubic-bezier(.18,.43,.59,.92);
@@ -551,7 +550,7 @@ section
 {
 	font-size: 48px;
 	font-weight: 500;
-	color: #181818;
+	color: gold;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -560,7 +559,7 @@ section
 }
 .menu_content ul li a:hover
 {
-	color: rgba(0,0,0,0.5);
+	color: rgba(255, 255, 255, 0.842);
 }
 .menu_social
 {
@@ -573,8 +572,8 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 500;
-	color: rgba(0,0,0,0.5);
-	margin-bottom: 10px;
+	color: gold;
+	margin-bottom: 40px;
 }
 .menu_social ul li:not(:last-child)
 {
@@ -582,8 +581,8 @@ section
 }
 .menu_social ul li a i
 {
-	font-size: 14px;
-	color: rgba(0,0,0,0.5);
+	font-size: 18px;
+	color: gold;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -592,9 +591,8 @@ section
 }
 .menu_social ul li a i:hover
 {
-	color: #181818;
+	color: rgba(255,255,255,0.842);
 }
-
 /*********************************
 5. Home
 *********************************/
