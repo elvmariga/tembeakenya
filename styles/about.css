@@ -290,7 +290,7 @@ section
 }
 .button:hover
 {
-	background: #800080;
+	background: #8D4A75;
 }
 
 /*********************************
@@ -309,7 +309,7 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
-	background-color: #800080;
+	background-color: #8D4A75;
 	opacity: 0.8;
 }
 .header_content
@@ -324,7 +324,7 @@ section
 }
 .header.scrolled
 {
-	background: #763076;
+	background: #8D4A75;
 	opacity: 1;
 }
 .header.scrolled .header_content
@@ -470,7 +470,7 @@ section
 	left: -100vw;
 	width: 80vw;
 	height: 100vh;
-	background: #763076;
+	background: #8D4A75;
 	-webkit-transition: all 1000ms cubic-bezier(.18,.43,.59,.92);
 	-moz-transition: all 1000ms cubic-bezier(.18,.43,.59,.92);
 	-ms-transition: all 1000ms cubic-bezier(.18,.43,.59,.92);
@@ -627,7 +627,7 @@ section
 	font-size: 100px;
 	line-height: 1.1;
 	font-weight: 400;
-	color: #800080;
+	color: #8D4A75;
 }
 
 /*********************************
@@ -785,7 +785,7 @@ section
 	line-height: 1.66;
 }
 .section_subtitle, .section_title{
-	color: #800080;
+	color: #8D4A75;
 }
 .about_text
 {
@@ -834,7 +834,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
 	font-weight: 500;
-	color: #800080;
+	color: #8D4A75;
 	line-height: 0.75;
 	margin-top: 35px;
 }
@@ -892,7 +892,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
 	font-weight: 500;
-	color: #800080;
+	color: #8D4A75;
 	line-height: 1.1;
 }
 .why_text
@@ -913,7 +913,7 @@ section
 	height: 73px;
 	background: #f2f5f6;
 	border-radius: 50%;
-	border: 3px solid #800080;
+	border: 3px solid #8D4A75;
 }
 .why_icon img
 {
@@ -990,7 +990,7 @@ section
 	display: block;
 	position: relative;
 	padding-top: 100px;
-	background-color: #763076;
+	background-color: #8D4A75;
 }
 .newsletter_title
 {
